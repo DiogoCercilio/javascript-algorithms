@@ -1,13 +1,51 @@
 ## Algorithms
 
-`B` - Beginner, `A` - Advanced
+<details open>
+  <summary>Algorithms by Importance (Most used)</summary>
 
-### Algorithms by Topic
+  * `B` [Binary Search Algorithm](src/algorithms)
+  * `B` [Breadth First Search (BFS) Algorithm](src/algorithms)
+  * `B` [Depth First Search (DFS) Algorithm](src/algorithms)
+  * `B` [Merge Sort Algorithm](src/algorithms)
+  * `B` [Quicksort Algorithm](src/algorithms)
+  * `B` [Kruskal’s Algorithm](src/algorithms)
+  * `B` [Floyd Warshall Algorithm](src/algorithms)
+  * `B` [Dijkstra’s Algorithm](src/algorithms)
+  * `B` [Bellman Ford Algorithm](src/algorithms)
+  * `B` [Kadane’s Algorithm](src/algorithms)
+  * `B` [Lee Algorithm](src/algorithms)
+  * `B` [Flood Fill Algorithm](src/algorithms)
+  * `B` [Floyd’s Cycle Detection Algorithm](src/algorithms)
+  * `B` [Union Find Algorithm](src/algorithms)
+  * `B` [Topological Sort Algorithm](src/algorithms)
+  * `B` [KMP Algorithm](src/algorithms)
+  * `B` [Insertion Sort Algorithm](src/algorithms)
+  * `B` [Selection Sort Algorithm](src/algorithms)
+  * `B` [Counting Sort Algorithm](src/algorithms)
+  * `B` [Heap Sort Algorithm](src/algorithms)
+  * `B` [Kahn’s Topological Sort Algorithm](src/algorithms)
+  * `B` [Huffman Coding Compression Algorithm](src/algorithms)
+  * `B` [Quickselect Algorithm](src/algorithms)
+  * `B` [Boyer–Moore Majority Vote Algorithm](src/algorithms)
+  * `B` [Euclid’s Algorithm](src/algorithms)
+  * `B` [Bubble Sort](src/algorithms/sorting/bubble-sort)
+  * `B` [Selection Sort](src/algorithms/sorting/selection-sort)
+  * `B` [Insertion Sort](src/algorithms/sorting/insertion-sort)
+  * `B` [Heap Sort](src/algorithms/sorting/heap-sort)
+  * `B` [Merge Sort](src/algorithms/sorting/merge-sort)
+  * `B` [Quicksort](src/algorithms/sorting/quick-sort) - in-place and non-in-place implementations
+  * `B` [Shellsort](src/algorithms/sorting/shell-sort)
+  * `B` [Counting Sort](src/algorithms/sorting/counting-sort)
+  * `B` [Radix Sort](src/algorithms/sorting/radix-sort)
+  * `B` [Two Pointers](src/algorithms/sorting/two-pointers)
 
+</details>
+
+<details>
+  <summary>Algorithms by Topic</summary>
 <details>
   <summary>Math</summary>
 
-Status: ![progress](https://geps.dev/progress/0)
   * `B` [Bit Manipulation](src/algorithms/math/bits) - set/get/update/clear bits, multiplication/division by two, make negative etc.
   * `B` [Binary Floating Point](src/algorithms/math/binary-floating-point) - binary representation of the floating-point numbers.
   * `B` [Factorial](src/algorithms/math/factorial)
@@ -34,7 +72,6 @@ Status: ![progress](https://geps.dev/progress/0)
 <details>
   <summary>Sets</summary>
 
-Status: ![progress](https://geps.dev/progress/0)
   * `B` [Cartesian Product](src/algorithms/sets/cartesian-product) - product of multiple sets
   * `B` [Fisher–Yates Shuffle](src/algorithms/sets/fisher-yates) - random permutation of a finite sequence
   * `A` [Power Set](src/algorithms/sets/power-set) - all subsets of a set (bitwise, backtracking, and cascading solutions)
@@ -166,8 +203,10 @@ Status: ![progress](https://geps.dev/progress/0)
   * `A` [N-Queens Problem](src/algorithms/uncategorized/n-queens)
   * `A` [Knight's Tour](src/algorithms/uncategorized/knight-tour)
 </details>
+</details>
 
-### Algorithms by Paradigm
+<details>
+  <summary>Algorithms by Paradigm</summary>
 
 An algorithmic paradigm is a generic method or approach which underlies the design of a class
 of algorithms. It is an abstraction higher than the notion of an algorithm, just as an
@@ -261,4 +300,5 @@ different path of finding a solution. Normally the DFS traversal of state-space 
 a least-cost solution to the problem, in order to discard partial solutions with costs larger than the
 lowest-cost solution found so far. Normally BFS traversal in combination with DFS traversal of state-space
 tree is being used.
+</details>
 </details>
