@@ -1,13 +1,13 @@
 ## Algorithms
 
-An algorithm is an unambiguous specification of how to solve a class of problems. It is
-a set of rules that precisely define a sequence of operations.
-
 `B` - Beginner, `A` - Advanced
 
 ### Algorithms by Topic
 
-* **Math**
+<details>
+  <summary>Math</summary>
+
+Status: ![progress](https://geps.dev/progress/0)
   * `B` [Bit Manipulation](src/algorithms/math/bits) - set/get/update/clear bits, multiplication/division by two, make negative etc.
   * `B` [Binary Floating Point](src/algorithms/math/binary-floating-point) - binary representation of the floating-point numbers.
   * `B` [Factorial](src/algorithms/math/factorial)
@@ -29,7 +29,12 @@ a set of rules that precisely define a sequence of operations.
   * `A` [Square Root](src/algorithms/math/square-root) - Newton's method
   * `A` [Liu Hui π Algorithm](src/algorithms/math/liu-hui) - approximate π calculations based on N-gons
   * `A` [Discrete Fourier Transform](src/algorithms/math/fourier-transform) - decompose a function of time (a signal) into the frequencies that make it up
-* **Sets**
+</details>
+
+<details>
+  <summary>Sets</summary>
+
+Status: ![progress](https://geps.dev/progress/0)
   * `B` [Cartesian Product](src/algorithms/sets/cartesian-product) - product of multiple sets
   * `B` [Fisher–Yates Shuffle](src/algorithms/sets/fisher-yates) - random permutation of a finite sequence
   * `A` [Power Set](src/algorithms/sets/power-set) - all subsets of a set (bitwise, backtracking, and cascading solutions)
@@ -41,7 +46,11 @@ a set of rules that precisely define a sequence of operations.
   * `A` [Knapsack Problem](src/algorithms/sets/knapsack-problem) - "0/1" and "Unbound" ones
   * `A` [Maximum Subarray](src/algorithms/sets/maximum-subarray) - "Brute Force" and "Dynamic Programming" (Kadane's) versions
   * `A` [Combination Sum](src/algorithms/sets/combination-sum) - find all combinations that form specific sum
-* **Strings**
+</details>
+
+<details>
+  <summary>Strings</summary>
+
   * `B` [Hamming Distance](src/algorithms/string/hamming-distance) - number of positions at which the symbols are different
   * `B` [Palindrome](src/algorithms/string/palindrome) - check if the string is the same in reverse
   * `A` [Levenshtein Distance](src/algorithms/string/levenshtein-distance) - minimum edit distance between two sequences
@@ -50,12 +59,20 @@ a set of rules that precisely define a sequence of operations.
   * `A` [Rabin Karp Algorithm](src/algorithms/string/rabin-karp) - substring search
   * `A` [Longest Common Substring](src/algorithms/string/longest-common-substring)
   * `A` [Regular Expression Matching](src/algorithms/string/regular-expression-matching)
-* **Searches**
+</details>
+
+<details>
+  <summary>Searches</summary>
+
   * `B` [Linear Search](src/algorithms/search/linear-search)
   * `B` [Jump Search](src/algorithms/search/jump-search) (or Block Search) - search in sorted array
   * `B` [Binary Search](src/algorithms/search/binary-search) - search in sorted array
   * `B` [Interpolation Search](src/algorithms/search/interpolation-search) - search in uniformly distributed sorted array
-* **Sorting**
+</details>
+
+<details>
+  <summary>Sorting</summary>
+
   * `B` [Bubble Sort](src/algorithms/sorting/bubble-sort)
   * `B` [Selection Sort](src/algorithms/sorting/selection-sort)
   * `B` [Insertion Sort](src/algorithms/sorting/insertion-sort)
@@ -65,13 +82,25 @@ a set of rules that precisely define a sequence of operations.
   * `B` [Shellsort](src/algorithms/sorting/shell-sort)
   * `B` [Counting Sort](src/algorithms/sorting/counting-sort)
   * `B` [Radix Sort](src/algorithms/sorting/radix-sort)
-* **Linked Lists**
+</details>
+
+<details>
+  <summary>Linked Lists</summary>
+
   * `B` [Straight Traversal](src/algorithms/linked-list/traversal)
   * `B` [Reverse Traversal](src/algorithms/linked-list/reverse-traversal)
-* **Trees**
+</details>
+
+<details>
+  <summary>Trees</summary>
+
   * `B` [Depth-First Search](src/algorithms/tree/depth-first-search) (DFS)
   * `B` [Breadth-First Search](src/algorithms/tree/breadth-first-search) (BFS)
-* **Graphs**
+</details>
+
+<details>
+  <summary>Graphs</summary>
+
   * `B` [Depth-First Search](src/algorithms/graph/depth-first-search) (DFS)
   * `B` [Breadth-First Search](src/algorithms/graph/breadth-first-search) (BFS)
   * `B` [Kruskal’s Algorithm](src/algorithms/graph/kruskal) - finding Minimum Spanning Tree (MST) for weighted undirected graph
@@ -87,22 +116,46 @@ a set of rules that precisely define a sequence of operations.
   * `A` [Hamiltonian Cycle](src/algorithms/graph/hamiltonian-cycle) - Visit every vertex exactly once
   * `A` [Strongly Connected Components](src/algorithms/graph/strongly-connected-components) - Kosaraju's algorithm
   * `A` [Travelling Salesman Problem](src/algorithms/graph/travelling-salesman) - shortest possible route that visits each city and returns to the origin city
-* **Cryptography**
+</details>
+
+<details>
+  <summary>Cryptography</summary>
+
   * `B` [Polynomial Hash](src/algorithms/cryptography/polynomial-hash) - rolling hash function based on polynomial
   * `B` [Rail Fence Cipher](src/algorithms/cryptography/rail-fence-cipher) - a transposition cipher algorithm for encoding messages
   * `B` [Caesar Cipher](src/algorithms/cryptography/caesar-cipher) - simple substitution cipher
   * `B` [Hill Cipher](src/algorithms/cryptography/hill-cipher) - substitution cipher based on linear algebra
-* **Machine Learning**
+</details>
+
+<details>
+  <summary>Machine Learning</summary>
+
   * `B` [NanoNeuron](https://github.com/trekhleb/nano-neuron) - 7 simple JS functions that illustrate how machines can actually learn (forward/backward propagation)
   * `B` [k-NN](src/algorithms/ml/knn) - k-nearest neighbors classification algorithm
   * `B` [k-Means](src/algorithms/ml/k-means) - k-Means clustering algorithm
-* **Image Processing**
+</details>
+
+<details>
+  <summary>Image Processing</summary>
+
   * `B` [Seam Carving](src/algorithms/image-processing/seam-carving) - content-aware image resizing algorithm
-* **Statistics**
+</details>
+
+<details>
+  <summary>Statistics</summary>
+
   * `B` [Weighted Random](src/algorithms/statistics/weighted-random) - select the random item from the list based on items' weights
-* **Evolutionary algorithms**
+</details>
+
+<details>
+  <summary>Evolutionary algorithms</summary>
+
   * `A` [Genetic algorithm](https://github.com/trekhleb/self-parking-car-evolution) - example of how the genetic algorithm may be applied for training the self-parking cars
-* **Uncategorized**
+</details>
+
+<details>
+  <summary>Uncategorized</summary>
+
   * `B` [Tower of Hanoi](src/algorithms/uncategorized/hanoi-tower)
   * `B` [Square Matrix Rotation](src/algorithms/uncategorized/square-matrix-rotation) - in-place algorithm
   * `B` [Jump Game](src/algorithms/uncategorized/jump-game) - backtracking, dynamic programming (top-down + bottom-up) and greedy examples
@@ -112,6 +165,7 @@ a set of rules that precisely define a sequence of operations.
   * `B` [Best Time To Buy Sell Stocks](src/algorithms/uncategorized/best-time-to-buy-sell-stocks) - divide and conquer and one-pass examples
   * `A` [N-Queens Problem](src/algorithms/uncategorized/n-queens)
   * `A` [Knight's Tour](src/algorithms/uncategorized/knight-tour)
+</details>
 
 ### Algorithms by Paradigm
 
@@ -119,20 +173,33 @@ An algorithmic paradigm is a generic method or approach which underlies the desi
 of algorithms. It is an abstraction higher than the notion of an algorithm, just as an
 algorithm is an abstraction higher than a computer program.
 
-* **Brute Force** - look at all the possibilities and selects the best solution
+<details>
+  <summary>Brute Force</summary>
+
+look at all the possibilities and selects the best solution
   * `B` [Linear Search](src/algorithms/search/linear-search)
   * `B` [Rain Terraces](src/algorithms/uncategorized/rain-terraces) - trapping rain water problem
   * `B` [Recursive Staircase](src/algorithms/uncategorized/recursive-staircase) - count the number of ways to reach to the top
   * `A` [Maximum Subarray](src/algorithms/sets/maximum-subarray)
   * `A` [Travelling Salesman Problem](src/algorithms/graph/travelling-salesman) - shortest possible route that visits each city and returns to the origin city
   * `A` [Discrete Fourier Transform](src/algorithms/math/fourier-transform) - decompose a function of time (a signal) into the frequencies that make it up
-* **Greedy** - choose the best option at the current time, without any consideration for the future
+</details>
+
+<details>
+  <summary>Greedy</summary>
+
+choose the best option at the current time, without any consideration for the future
   * `B` [Jump Game](src/algorithms/uncategorized/jump-game)
   * `A` [Unbound Knapsack Problem](src/algorithms/sets/knapsack-problem)
   * `A` [Dijkstra Algorithm](src/algorithms/graph/dijkstra) - finding the shortest path to all graph vertices
   * `A` [Prim’s Algorithm](src/algorithms/graph/prim) - finding Minimum Spanning Tree (MST) for weighted undirected graph
   * `A` [Kruskal’s Algorithm](src/algorithms/graph/kruskal) - finding Minimum Spanning Tree (MST) for weighted undirected graph
-* **Divide and Conquer** - divide the problem into smaller parts and then solve those parts
+</details>
+
+<details>
+  <summary>Divide and Conquer</summary>
+
+divide the problem into smaller parts and then solve those parts
   * `B` [Binary Search](src/algorithms/search/binary-search)
   * `B` [Tower of Hanoi](src/algorithms/uncategorized/hanoi-tower)
   * `B` [Pascal's Triangle](src/algorithms/math/pascal-triangle)
@@ -148,7 +215,12 @@ algorithm is an abstraction higher than a computer program.
   * `A` [Permutations](src/algorithms/sets/permutations) (with and without repetitions)
   * `A` [Combinations](src/algorithms/sets/combinations) (with and without repetitions)
   * `A` [Maximum Subarray](src/algorithms/sets/maximum-subarray)
-* **Dynamic Programming** - build up a solution using previously found sub-solutions
+</details>
+
+<details>
+  <summary>Dynamic Programming</summary>
+
+build up a solution using previously found sub-solutions
   * `B` [Fibonacci Number](src/algorithms/math/fibonacci)
   * `B` [Jump Game](src/algorithms/uncategorized/jump-game)
   * `B` [Unique Paths](src/algorithms/uncategorized/unique-paths)
@@ -166,8 +238,12 @@ algorithm is an abstraction higher than a computer program.
   * `A` [Bellman-Ford Algorithm](src/algorithms/graph/bellman-ford) - finding the shortest path to all graph vertices
   * `A` [Floyd-Warshall Algorithm](src/algorithms/graph/floyd-warshall) - find the shortest paths between all pairs of vertices
   * `A` [Regular Expression Matching](src/algorithms/string/regular-expression-matching)
-* **Backtracking** - similarly to brute force, try to generate all possible solutions, but each time you generate next solution you test
-if it satisfies all conditions, and only then continue generating subsequent solutions. Otherwise, backtrack, and go on a
+</details>
+
+<details>
+  <summary>Backtracking</summary>
+
+similarly to brute force, try to generate all possible solutions, but each time you generate next solution you test if it satisfies all conditions, and only then continue generating subsequent solutions. Otherwise, backtrack, and go on a
 different path of finding a solution. Normally the DFS traversal of state-space is being used.
   * `B` [Jump Game](src/algorithms/uncategorized/jump-game)
   * `B` [Unique Paths](src/algorithms/uncategorized/unique-paths)
@@ -176,8 +252,13 @@ different path of finding a solution. Normally the DFS traversal of state-space 
   * `A` [N-Queens Problem](src/algorithms/uncategorized/n-queens)
   * `A` [Knight's Tour](src/algorithms/uncategorized/knight-tour)
   * `A` [Combination Sum](src/algorithms/sets/combination-sum) - find all combinations that form specific sum
-* **Branch & Bound** - remember the lowest-cost solution found at each stage of the backtracking
-search, and use the cost of the lowest-cost solution found so far as a lower bound on the cost of
+</details>
+
+<details>
+  <summary>Branch & Bound</summary>
+
+  remember the lowest-cost solution found at each stage of the backtracking search, and use the cost of the lowest-cost solution found so far as a lower bound on the cost of
 a least-cost solution to the problem, in order to discard partial solutions with costs larger than the
 lowest-cost solution found so far. Normally BFS traversal in combination with DFS traversal of state-space
 tree is being used.
+</details>

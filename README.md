@@ -1,5 +1,5 @@
-# JavaScript Algorithms and Data Structures
+# Algorithms and Data Structures
 
-- [Data Structures](README_DS.md)
-- [Algorithms](README_ALG.md)
-- [Time Complexity](README_COMPLEXITY.md)
+- ![progress](https://geps.dev/progress/30) [Data Structures](README_DS.md)
+- ![progress](https://geps.dev/progress/10) [Algorithms](README_ALG.md)
+- ![progress](https://geps.dev/progress/20) [Time / Space Complexity](README_COMPLEXITY.md)
