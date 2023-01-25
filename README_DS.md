@@ -4,10 +4,6 @@
     height: 20px;
     margin-left: 30px;
   }
-  img[alt=progress] { 
-    margin-left: 10px;
-    zoom: .8
-  }
 </style>
 
 ## Data Structures                  
@@ -16,24 +12,24 @@
 
 `B` - Beginner, `A` - Advanced
 
-* `B` [Linked List](src/data-structures/linked-list) ![progress](https://geps.dev/progress/80) [![icon](https://qph.cf2.quoracdn.net/main-qimg-72917c2234a9c41baf796c0b1fcbc200 "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=linked+list)
-* `B` [Doubly Linked List](src/data-structures/doubly-linked-list) ![progress](https://geps.dev/progress/70) [![icon](https://qph.cf2.quoracdn.net/main-qimg-72917c2234a9c41baf796c0b1fcbc200 "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=doubled+linked+list)
-* `B` [Queue](src/data-structures/queue) ![progress](https://geps.dev/progress/80) [![icon](https://qph.cf2.quoracdn.net/main-qimg-72917c2234a9c41baf796c0b1fcbc200 "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=queue)
-* `B` [Stack](src/data-structures/stack) ![progress](https://geps.dev/progress/80) [![icon](https://qph.cf2.quoracdn.net/main-qimg-72917c2234a9c41baf796c0b1fcbc200 "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=linked+list)
-* `B` [Hash Table](src/data-structures/hash-table) ![progress](https://geps.dev/progress/80) [![icon](https://qph.cf2.quoracdn.net/main-qimg-72917c2234a9c41baf796c0b1fcbc200 "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=linked+list)
-* `B` [Heap](src/data-structures/heap) - max and min heap versions - ![progress](https://geps.dev/progress/0) [![icon](https://qph.cf2.quoracdn.net/main-qimg-72917c2234a9c41baf796c0b1fcbc200 "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=linked+list)
-* `B` [Priority Queue](src/data-structures/priority-queue) ![progress](https://geps.dev/progress/0) [![icon](https://qph.cf2.quoracdn.net/main-qimg-72917c2234a9c41baf796c0b1fcbc200 "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=linked+list)
-* `A` [Trie](src/data-structures/trie) ![progress](https://geps.dev/progress/0) [![icon](https://qph.cf2.quoracdn.net/main-qimg-72917c2234a9c41baf796c0b1fcbc200 "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=linked+list)
+* `B` [Linked List](src/data-structures/linked-list) ![progress](https://geps.dev/progress/80) [![icon](./assets/leetcode-icon.png "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=linked+list)
+* `B` [Doubly Linked List](src/data-structures/doubly-linked-list) ![progress](https://geps.dev/progress/70) [![icon](./assets/leetcode-icon.png "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=doubled+linked+list)
+* `B` [Queue](src/data-structures/queue) ![progress](https://geps.dev/progress/80) [![icon](./assets/leetcode-icon.png "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=queue)
+* `B` [Stack](src/data-structures/stack) ![progress](https://geps.dev/progress/80) [![icon](./assets/leetcode-icon.png "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=linked+list)
+* `B` [Hash Table](src/data-structures/hash-table) ![progress](https://geps.dev/progress/80) [![icon](./assets/leetcode-icon.png "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=linked+list)
+* `B` [Heap](src/data-structures/heap) - max and min heap versions - ![progress](https://geps.dev/progress/0) [![icon](./assets/leetcode-icon.png "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=linked+list)
+* `B` [Priority Queue](src/data-structures/priority-queue) ![progress](https://geps.dev/progress/0) [![icon](./assets/leetcode-icon.png "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=linked+list)
+* `A` [Trie](src/data-structures/trie) ![progress](https://geps.dev/progress/0) [![icon](./assets/leetcode-icon.png "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=linked+list)
 * `A` [Tree](src/data-structures/tree)
-  * `A` [Binary Search Tree](src/data-structures/tree/binary-search-tree) ![progress](https://geps.dev/progress/50) [![icon](https://qph.cf2.quoracdn.net/main-qimg-72917c2234a9c41baf796c0b1fcbc200 "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=linked+list)
-  * `A` [AVL Tree](src/data-structures/tree/avl-tree) ![progress](https://geps.dev/progress/0) [![icon](https://qph.cf2.quoracdn.net/main-qimg-72917c2234a9c41baf796c0b1fcbc200 "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=linked+list)
-  * `A` [Red-Black Tree](src/data-structures/tree/red-black-tree) ![progress](https://geps.dev/progress/0) [![icon](https://qph.cf2.quoracdn.net/main-qimg-72917c2234a9c41baf796c0b1fcbc200 "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=linked+list)
-  * `A` [Segment Tree](src/data-structures/tree/segment-tree) - with min/max/sum range queries examples - ![progress](https://geps.dev/progress/0) [![icon](https://qph.cf2.quoracdn.net/main-qimg-72917c2234a9c41baf796c0b1fcbc200 "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=linked+list)
-  * `A` [Fenwick Tree](src/data-structures/tree/fenwick-tree) (Binary Indexed Tree) ![progress](https://geps.dev/progress/0) [![icon](https://qph.cf2.quoracdn.net/main-qimg-72917c2234a9c41baf796c0b1fcbc200 "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=linked+list)
-  * `A` [Splay Tree](src/data-structures/tree/splay-tree) ![progress](https://geps.dev/progress/0) [![icon](https://qph.cf2.quoracdn.net/main-qimg-72917c2234a9c41baf796c0b1fcbc200 "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=linked+list)
-* `A` [Graph](src/data-structures/graph) (both directed and undirected) ![progress](https://geps.dev/progress/0) [![icon](https://qph.cf2.quoracdn.net/main-qimg-72917c2234a9c41baf796c0b1fcbc200 "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=linked+list)
-* `A` [Disjoint Set](src/data-structures/disjoint-set) ![progress](https://geps.dev/progress/0) [![icon](https://qph.cf2.quoracdn.net/main-qimg-72917c2234a9c41baf796c0b1fcbc200 "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=linked+list)
-* `A` [Bloom Filter](src/data-structures/bloom-filter) ![progress](https://geps.dev/progress/0) [![icon](https://qph.cf2.quoracdn.net/main-qimg-72917c2234a9c41baf796c0b1fcbc200 "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=linked+list)
+  * `A` [Binary Search Tree](src/data-structures/tree/binary-search-tree) ![progress](https://geps.dev/progress/50) [![icon](./assets/leetcode-icon.png "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=linked+list)
+  * `A` [AVL Tree](src/data-structures/tree/avl-tree) ![progress](https://geps.dev/progress/0) [![icon](./assets/leetcode-icon.png "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=linked+list)
+  * `A` [Red-Black Tree](src/data-structures/tree/red-black-tree) ![progress](https://geps.dev/progress/0) [![icon](./assets/leetcode-icon.png "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=linked+list)
+  * `A` [Segment Tree](src/data-structures/tree/segment-tree) - with min/max/sum range queries examples - ![progress](https://geps.dev/progress/0) [![icon](./assets/leetcode-icon.png "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=linked+list)
+  * `A` [Fenwick Tree](src/data-structures/tree/fenwick-tree) (Binary Indexed Tree) ![progress](https://geps.dev/progress/0) [![icon](./assets/leetcode-icon.png "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=linked+list)
+  * `A` [Splay Tree](src/data-structures/tree/splay-tree) ![progress](https://geps.dev/progress/0) [![icon](./assets/leetcode-icon.png "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=linked+list)
+* `A` [Graph](src/data-structures/graph) (both directed and undirected) ![progress](https://geps.dev/progress/0) [![icon](./assets/leetcode-icon.png "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=linked+list)
+* `A` [Disjoint Set](src/data-structures/disjoint-set) ![progress](https://geps.dev/progress/0) [![icon](./assets/leetcode-icon.png "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=linked+list)
+* `A` [Bloom Filter](src/data-structures/bloom-filter) ![progress](https://geps.dev/progress/0) [![icon](./assets/leetcode-icon.png "Open in LeetCode")](https://leetcode.com/problemset/algorithms/?search=linked+list)
 
 ### References
 
