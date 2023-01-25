@@ -1,11 +1,3 @@
-<style>
-  img[alt=icon] { 
-    width: 20px; 
-    height: 20px;
-    margin-left: 30px;
-  }
-</style>
-
 ## Data Structures                  
 
 ##### [← Back](README.md)
@@ -32,7 +24,7 @@
 
 ### References
 
-- [▶ Data Structures and Algorithms on YouTube](https://www.youtube.com/playlist?list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
+- [🔥 Data Structures and Algorithms on YouTube](https://www.youtube.com/playlist?list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
 - [✍🏻 Data Structure Sketches](https://okso.app/showcase/data-structures)
 
 <!-- TODO: -->
