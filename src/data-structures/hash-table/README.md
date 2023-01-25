@@ -1,13 +1,11 @@
 # Hash Table
 
-_Read this in other languages:_
-[_简体中文_](README.zh-CN.md),
-[_Русский_](README.ru-RU.md),
-[_日本語_](README.ja-JP.md),
-[_Français_](README.fr-FR.md),
-[_Português_](README.pt-BR.md),
-[_한국어_](README.ko-KR.md),
-[_Українська_](README.uk-UA.md)
+##### UseCases #####
+...
+##### Pros #####
+...
+##### Cons #####
+...
 
 In computing, a **hash table** (hash map) is a data
 structure which implements an _associative array_
@@ -28,8 +26,6 @@ accommodated in some way.
 Hash collision resolved by separate chaining.
 
 ![Hash Collision](./images/collision-resolution.jpeg)
-
-_Made with [okso.app](https://okso.app)_
 
 ## References
 

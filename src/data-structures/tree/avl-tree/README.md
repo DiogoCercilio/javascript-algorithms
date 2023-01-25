@@ -1,7 +1,11 @@
 # AVL Tree
 
-_Read this in other languages:_
-[_Português_](README.pt-BR.md)
+##### UseCases #####
+...
+##### Pros #####
+...
+##### Cons #####
+...
 
 In computer science, an **AVL tree** (named after inventors 
 Adelson-Velsky and Landis) is a self-balancing binary search 

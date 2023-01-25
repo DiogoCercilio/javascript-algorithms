@@ -1,9 +1,5 @@
 # Tree
 
-_Read this in other languages:_
-[_简体中文_](README.zh-CN.md),
-[_Português_](README.pt-BR.md)
-
 * [Binary Search Tree](binary-search-tree)
 * [AVL Tree](avl-tree)
 * [Red-Black Tree](red-black-tree)
@@ -28,8 +24,6 @@ two children, labeled 2 and 6, and one parent, labeled 2. The
 root node, at the top, has no parent.
 
 ![Tree](./images/tree.jpeg)
-
-*Made with [okso.app](https://okso.app)*
 
 ## References
 

@@ -1,13 +1,11 @@
 # Queue
 
-_Read this in other languages:_
-[_简体中文_](README.zh-CN.md),
-[_Русский_](README.ru-RU.md),
-[_日本語_](README.ja-JP.md),
-[_Français_](README.fr-FR.md),
-[_Português_](README.pt-BR.md),
-[_한국어_](README.ko-KR.md),
-[_Українська_](README.uk-UA.md)
+##### UseCases #####
+...
+##### Pros #####
+...
+##### Cons #####
+...
 
 In computer science, a **queue** is a particular kind of abstract data
 type or collection in which the entities in the collection are
@@ -28,8 +26,6 @@ sequential collection.
 Representation of a FIFO (first in, first out) queue
 
 ![Queue](./images/queue.jpeg)
-
-*Made with [okso.app](https://okso.app)*
 
 ## References
 

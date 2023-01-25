@@ -1,13 +1,11 @@
 # Stack
 
-_Read this in other languages:_
-[_简体中文_](README.zh-CN.md),
-[_Русский_](README.ru-RU.md),
-[_日本語_](README.ja-JP.md),
-[_Français_](README.fr-FR.md),
-[_Português_](README.pt-BR.md),
-[_한국어_](README.ko-KR.md),
-[_Українська_](README.uk-UA.md)
+##### UseCases #####
+...
+##### Pros #####
+...
+##### Cons #####
+...
 
 In computer science, a **stack** is an abstract data type that serves
 as a collection of elements, with two principal operations:
@@ -27,8 +25,6 @@ may require taking off multiple other items first.
 Simple representation of a stack runtime with push and pop operations.
 
 ![Stack](./images/stack.jpeg)
-
-*Made with [okso.app](https://okso.app)*
 
 ## References
 

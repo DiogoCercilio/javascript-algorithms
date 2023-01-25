@@ -1,10 +1,11 @@
 # Trie
 
-_Read this in other languages:_
-[_简体中文_](README.zh-CN.md),
-[_Русский_](README.ru-RU.md),
-[_Português_](README.pt-BR.md),
-[_Українська_](README.uk-UA.md)
+##### UseCases #####
+...
+##### Pros #####
+...
+##### Cons #####
+...
 
 In computer science, a **trie**, also called digital tree and sometimes
 radix tree or prefix tree (as they can be searched by prefixes),
@@ -22,8 +23,6 @@ For the space-optimized presentation of prefix tree, see compact
 prefix tree.
 
 ![Trie](./images/trie.jpg)
-
-*Made with [okso.app](https://okso.app)*
 
 ## References
 

@@ -1,7 +1,11 @@
 # Binary Search Tree
 
-_Read this in other languages:_
-[_Português_](README.pt-BR.md)
+##### UseCases #####
+...
+##### Pros #####
+...
+##### Cons #####
+...
 
 In computer science, **binary search trees** (BST), sometimes called
 ordered or sorted binary trees, are a particular type of container:
@@ -30,11 +34,10 @@ The leaves are not drawn.
 
 ![Trie](./images/binary-search-tree.jpg)
 
-*Made with [okso.app](https://okso.app)*
-
 ## Pseudocode for Basic Operations
 
-### Insertion
+<details>
+  <summary>Insertion</summary>
 
 ```text
 insert(value)
@@ -47,6 +50,10 @@ insert(value)
   end if
 end insert
 ```
+</details>
+
+<details>
+  <summary>Insert Node</summary>
 
 ```text
 insertNode(current, value)
@@ -67,8 +74,10 @@ insertNode(current, value)
   end if
 end insertNode
 ```
+</details>
 
-### Searching
+<details>
+  <summary>Searching</summary>
 
 ```text
 contains(root, value)
@@ -86,9 +95,10 @@ contains(root, value)
   end if
 end contains
 ```
+</details>
 
-
-### Deletion
+<details>
+  <summary>Deletion</summary>
 
 ```text
 remove(value)
@@ -138,8 +148,10 @@ remove(value)
   return true
 end remove
 ```
+</details>
 
-### Find Parent of Node
+<details>
+  <summary>Find Parent of Node</summary>
 
 ```text
 findParent(value, root)
@@ -168,28 +180,32 @@ findParent(value, root)
   end if
 end findParent
 ```
+</details>
 
-### Find Node
+<details>
+  <summary>Find Node</summary>
 
-```text
-findNode(root, value)
-  Pre: value is the value of the node we want to find the parent of
-       root is the root node of the BST
-  Post: a reference to the node of value if found; otherwise ø
-  if root = ø
-    return ø
-  end if
-  if root.value = value
-    return root
-  else if value < root.value
-    return findNode(root.left, value)
-  else
-    return findNode(root.right, value)
-  end if
-end findNode
-```
+  ```text
+  findNode(root, value)
+    Pre: value is the value of the node we want to find the parent of
+        root is the root node of the BST
+    Post: a reference to the node of value if found; otherwise ø
+    if root = ø
+      return ø
+    end if
+    if root.value = value
+      return root
+    else if value < root.value
+      return findNode(root.left, value)
+    else
+      return findNode(root.right, value)
+    end if
+  end findNode
+  ```
+</details>
 
-### Find Minimum
+<details>
+  <summary>Find Minimum</summary>
 
 ```text
 findMin(root)
@@ -202,8 +218,10 @@ findMin(root)
   findMin(root.left)
 end findMin
 ```
+</details>
 
-### Find Maximum
+<details>
+  <summary>Find Maximum</summary>
 
 ```text
 findMax(root)
@@ -216,10 +234,11 @@ findMax(root)
   findMax(root.right)
 end findMax
 ```
+</details>
 
-### Traversal
 
-#### InOrder Traversal
+<details>
+  <summary>Traversal - InOrder Traversal</summary>
 
 ```text
 inorder(root)
@@ -232,8 +251,10 @@ inorder(root)
   end if
 end inorder
 ```
+</details>
 
-#### PreOrder Traversal
+<details>
+  <summary>Traversal - PreOrder Traversal</summary>
 
 ```text
 preorder(root)
@@ -246,8 +267,10 @@ preorder(root)
   end if
 end preorder
 ```
+</details>
 
-#### PostOrder Traversal
+<details>
+  <summary>Traversal - PostOrder Traversal</summary>
 
 ```text
 postorder(root)
@@ -260,6 +283,7 @@ postorder(root)
   end if
 end postorder
 ```
+</details>
 
 ## Complexities
 

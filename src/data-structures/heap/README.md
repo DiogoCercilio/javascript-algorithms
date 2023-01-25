@@ -1,15 +1,11 @@
 # Heap (data-structure)
 
-_Read this in other languages:_
-[_简体中文_](README.zh-CN.md),
-[_Русский_](README.ru-RU.md),
-[_日本語_](README.ja-JP.md),
-[_Français_](README.fr-FR.md),
-[_Português_](README.pt-BR.md),
-[_Türkçe_](README.tr-TR.md),
-[_한국어_](README.ko-KR.md),
-[_Українська_](README.uk-UA.md)
-
+##### UseCases #####
+...
+##### Pros #####
+...
+##### Cons #####
+...
 
 In computer science, a **heap** is a specialized tree-based
 data structure that satisfies the heap property described
@@ -20,8 +16,6 @@ key (the value) of `P` is less than or equal to the
 key of `C`.
 
 ![MinHeap](./images/min-heap.jpeg)
-
-*Made with [okso.app](https://okso.app)*
 
 In a *max heap*, the key of `P` is greater than or equal
 to the key of `C`

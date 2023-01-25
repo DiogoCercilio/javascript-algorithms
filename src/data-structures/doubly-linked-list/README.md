@@ -1,13 +1,12 @@
 # Doubly Linked List
 
-_Read this in other languages:_
-[_Русский_](README.ru-RU.md),
-[_简体中文_](README.zh-CN.md),
-[_日本語_](README.ja-JP.md),
-[_Português_](README.pt-BR.md),
-[_한국어_](README.ko-KR.md),
-[_Español_](README.es-ES.md),
-[_Українська_](README.uk-UA.md)
+https://www.youtube.com/watch?v=JdQeNxWCguQ
+
+##### Pros #####
+
+????
+##### Cons #####
+????
 
 In computer science, a **doubly linked list** is a linked data structure that
 consists of a set of sequentially linked records called nodes. Each node contains
@@ -21,8 +20,6 @@ but in opposite sequential orders.
 
 ![Doubly Linked List](./images/doubly-linked-list.jpeg)
 
-_Made with [okso.app](https://okso.app)_
-
 The two node links allow traversal of the list in either direction. While adding
 or removing a node in a doubly linked list requires changing more links than the
 same operations on a singly linked list, the operations are simpler and
@@ -32,7 +29,8 @@ to traverse the list to find the previous node, so that its link can be modified
 
 ## Pseudocode for Basic Operations
 
-### Insert
+<details>
+  <summary>Insert</summary>
 
 ```text
 Add(value)
@@ -49,8 +47,10 @@ Add(value)
   end if
 end Add
 ```
+</details>
 
-### Delete
+<details>
+  <summary>Delete</summary>
 
 ```text
 Remove(head, value)
@@ -86,8 +86,10 @@ Remove(head, value)
   return false
 end Remove
 ```
+</details>
 
-### Reverse Traversal
+<details>
+  <summary>Reverse Traversal</summary>
 
 ```text
 ReverseTraversal(tail)
@@ -100,6 +102,8 @@ ReverseTraversal(tail)
   end while
 end Reverse Traversal
 ```
+
+</details>
 
 ## Complexities
 

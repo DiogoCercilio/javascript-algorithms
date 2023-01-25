@@ -1,8 +1,3 @@
-<style>
-    table {
-      font-size: .8em
-    }
-</style>
 ## Data Structures                  
 
 ##### [← Back](README.md)

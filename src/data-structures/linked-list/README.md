@@ -1,14 +1,14 @@
 # Linked List
 
-_Read this in other languages:_
-[_简体中文_](README.zh-CN.md),
-[_Русский_](README.ru-RU.md),
-[_日本語_](README.ja-JP.md),
-[_Português_](README.pt-BR.md),
-[_한국어_](README.ko-KR.md),
-[_Español_](README.es-ES.md),
-[_Turkish_](README.tr-TR.md),
-[_Українська_](README.uk-UA.md)
+https://www.youtube.com/watch?v=njTh_OwMljA
+
+##### Pros #####
+
+- Efficient Inserts and Removal
+##### Cons #####
+- Access time is Linear (Slower compared to Arrays)
+
+---
 
 In computer science, a **linked list** is a linear collection
 of data elements, in which linear order is not given by
@@ -33,7 +33,8 @@ have better cache locality as compared to linked lists.
 
 ## Pseudocode for Basic Operations
 
-### Insert
+<details>
+  <summary>Insert</summary>
 
 ```text
 Add(value)
@@ -49,6 +50,10 @@ Add(value)
   end if
 end Add
 ```
+</details>
+
+<details>
+  <summary>Prepend</summary>
 
 ```text
 Prepend(value)
@@ -62,8 +67,10 @@ Prepend(value)
  end
 end Prepend
 ```
+</details>
 
-### Search
+<details>
+  <summary>Search</summary>
 
 ```text
 Contains(head, value)
@@ -80,8 +87,10 @@ Contains(head, value)
   return true
 end Contains
 ```
+</details>
 
-### Delete
+<details>
+  <summary>Delete</summary>
 
 ```text
 Remove(head, value)
@@ -116,8 +125,10 @@ Remove(head, value)
   return false
 end Remove
 ```
+</details>
 
-### Traverse
+<details>
+  <summary>Traverse</summary>
 
 ```text
 Traverse(head)
@@ -130,8 +141,10 @@ Traverse(head)
   end while
 end Traverse
 ```
+</details>
 
-### Traverse in Reverse
+<details>
+  <summary>Traverse in Reverse</summary>
 
 ```text
 ReverseTraversal(head, tail)
@@ -151,6 +164,7 @@ ReverseTraversal(head, tail)
   end if
 end ReverseTraversal
 ```
+</details>
 
 ## Complexities
 
