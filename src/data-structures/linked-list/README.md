@@ -4,9 +4,13 @@ https://www.youtube.com/watch?v=njTh_OwMljA
 
 ##### Pros #####
 
-- Efficient Inserts and Removal
+- Very simple
+- Efficient Inserts and Delete O(1) (Constant Time)
+- Can handle any type of data, and the elements can be sorted or unsorted
+- can have duplicated or unique values
 ##### Cons #####
-- Access time is Linear (Slower compared to Arrays)
+
+- Access time when searching for the nth element is O(n) (Linear) (Slower compared to Arrays)
 
 ---
 
